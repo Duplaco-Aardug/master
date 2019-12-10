@@ -1,0 +1,176 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* batch_specification
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-15 06:04+0000\n"
+"PO-Revision-Date: 2019-11-15 06:04+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__actual_value
+msgid "Actual Value"
+msgstr "Werkelijke waarde"
+
+#. module: batch_specification
+#: model_terms:ir.ui.view,arch_db:batch_specification.product_normal_form_view_inherit_1
+#: model_terms:ir.ui.view,arch_db:batch_specification.view_production_lot_form_inherit
+msgid "Batch Specification"
+msgstr "Batch specificatie"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__create_uid
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__create_uid
+msgid "Created by"
+msgstr "Created by"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__create_date
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__create_date
+msgid "Created on"
+msgstr "Created on"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__display_name
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__display_name
+msgid "Display Name"
+msgstr "Weergave naam"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__id
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__id
+msgid "ID"
+msgstr "ID"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field____last_update
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config____last_update
+msgid "Last Modified on"
+msgstr "Last Modified on"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__write_uid
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__write_uid
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__write_date
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__write_date
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: batch_specification
+#: model:ir.model,name:batch_specification.model_stock_production_lot
+msgid "Lot/Serial"
+msgstr "Lot/Serial"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_mrp_production__lots_ids
+#: model:ir.model.fields,field_description:batch_specification.field_stock_picking__lot_ids
+#: model_terms:ir.ui.view,arch_db:batch_specification.mrp_production_form_view
+#: model_terms:ir.ui.view,arch_db:batch_specification.stock_picking_form_view_inherit
+msgid "Lots"
+msgstr "Lots"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_mrp_production___count_lots
+#: model:ir.model.fields,field_description:batch_specification.field_stock_picking___count
+msgid "Lots count"
+msgstr "Veel tellen"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__maximum
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__maximum
+msgid "Maximum"
+msgstr "maximaal"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__minimum
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__minimum
+msgid "Minimum"
+msgstr "Minimum"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field__name
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__name
+#: model_terms:ir.ui.view,arch_db:batch_specification.product_field_config_form
+msgid "Name"
+msgstr "Naam"  
+
+#. module: batch_specification
+#: code:addons/batch_specification/models/product.py:22
+#, python-format
+msgid "Please fill all fields"
+msgstr "Vul alstublieft alle velden in." 
+
+#. module: batch_specification
+#: code:addons/batch_specification/models/product.py:52
+#, python-format
+msgid "Please fill all fields."
+msgstr "Vul alstublieft alle velden in."
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__product_id
+msgid "Product"
+msgstr ""
+
+#. module: batch_specification
+#: model:ir.actions.act_window,name:batch_specification.product_field
+msgid "Product Field "
+msgstr "Product veld"
+
+#. module: batch_specification
+#: model:ir.ui.menu,name:batch_specification.menu_product_field_confi
+msgid "Product Field Configuration"
+msgstr "Product Field Configuration"
+
+#. module: batch_specification
+#: model:ir.actions.act_window,name:batch_specification.product_field_configuration
+msgid "Product Field configuration "
+msgstr "Product veld configuratie"
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_product__product_field_ids
+#: model:ir.model.fields,field_description:batch_specification.field_product_template__product_field_ids
+#: model:ir.model.fields,field_description:batch_specification.field_stock_production_lot__product_field_ids
+msgid "Product Fields"
+msgstr "Product velds"
+
+#. module: batch_specification
+#: model:ir.model,name:batch_specification.model_product_template
+msgid "Product Template"
+msgstr "Product Template"
+
+#. module: batch_specification
+#: model:ir.model,name:batch_specification.model_mrp_production
+msgid "Production Order"
+msgstr ""
+
+#. module: batch_specification
+#: model:ir.model.fields,field_description:batch_specification.field_product_field_config__check_required
+msgid "Required"
+msgstr "Verplicht"
+
+#. module: batch_specification
+#: model:ir.model,name:batch_specification.model_stock_picking
+msgid "Transfer"
+msgstr "Overdracht"
+
+#. module: batch_specification
+#: model:ir.model,name:batch_specification.model_product_field
+msgid "product.field"
+msgstr "product.field"
+
+#. module: batch_specification
+#: model:ir.model,name:batch_specification.model_product_field_config
+msgid "product.field.config"
+msgstr "product.field.config" 
